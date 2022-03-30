@@ -2606,11 +2606,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.left {
-			float: left;
-			margin: 0 2rem 2rem 0;
-			top: 0.75rem;
-		}
+        .image.left {
+            float: left;
+            margin: 0 2rem 2rem 0;
+            top: 0.75rem;
+        }
 
 		.image.right {
 			float: right;
