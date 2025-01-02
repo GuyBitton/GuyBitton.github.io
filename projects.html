@@ -47,7 +47,30 @@
 
 				<!-- Posts -->
 				<section class="posts">
-
+					<article>
+						<header>
+							<h2>
+								<a>
+									Identification and Analysis of Dropped Frames in a Multithreaded Embedded Image Processing Application
+								</a>
+							</h2>
+						</header>
+						<a class="image fit"><img src="images\FrameMonitorProject.png" alt="" /></a>
+						<ul>
+							<li class="button primary small">C++</li>
+							<li class="button primary small">Python</li>
+							<li class="button primary small">Object Oriented Programming</li>
+							<li class="button primary small">Image Processing</li>
+							<li class="button primary small">Software Design</li>
+						</ul>
+						<p>
+							Designed a service to monitor drpped frames during runtime and report on the number of 
+							dropped frames at each part of the image pipeline and for each one of the pipelines (ports). 
+							Events were generated into a log that could then be proceseed to visualize the results.
+							This allowed to identify the source of a major defect in a real-world robotic application 
+							and reduce percentage of dropped frames from over 15% to near 0.
+						</p>
+					</article>
 					<article>
 						<header>
 							<h2>
@@ -66,9 +89,6 @@
 						<p>
 							Created an Arduino based Proportional-Integral-Differential(PID) controller for a Polulu&reg DC motor constructing a linear actuator. Used magnetic encoders for position measurement and a Roboclaw&reg board as the motor driver. Used current measurement to detect end of range of motion for automatic position calibration as well as for overheating protection in case of mechanism failure.
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -88,9 +108,6 @@
 						<p>
 							Created a MATLAB simulation of a differential robot localization. Used a noisy kinematic model of the robot for prediction of motion. Simulated noisy wheel odometry and landmark measurement and used Kalman Filter and Extended Kalman Filter(EKF) for the estimation of robot configuration(position and orientation).
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 
 					<article>
@@ -112,9 +129,6 @@
 						<p>
 							Designed and built a 2-DoF linear actuator for tactile haptic interfaces. This actuator is as small as 60x60x35 mm but can produce a thrust force of up to 180 N (~18 Kgf or 40 lbf) with a resolution of 0.0136 mm per motor revolution. Its affordable and effective design (3D printed parts and low-cost DC motors) together with its high translational accuracy make it ideal for low-budget research applications such as haptic devices. <a href="https://ieeexplore.ieee.org/document/9257364"><b> This design was published in the IEEE journal Transactions on Haptics.</b></a>
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 
 					<article>
@@ -136,9 +150,6 @@
 						<p>
 							Designed and built a force measurement system for haptics research applications. I designed this system to accurately (~1% error) measure grip force application during the movement of an integrated actuation mechanism. Additionally, I performed a calibrated the device using my custom made external calibration system. <a href="https://ieeexplore.ieee.org/document/9257364"><b> This device was published in the IEEE journal Transactions on Haptics.</b></a>
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 
 					<article>
@@ -159,9 +170,6 @@
 						<p>
 							Created a Particle Filter MATLAB simulation of a differential robot localization in a 2D world with landmarks. Used a noisy kinematic model of the robot for prediction of motion. Simulated noisy wheel odometry and landmark measurement and used Particle Filter for the estimation of robot configuration(position and orientation).
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -179,9 +187,6 @@
 							<li class="button primary small">PRM</li>
 						</ul>
 						<p>Created an executable program to solve a 2D motion planning problem. The program receives a map of 2D obstacles from a text file, creates a Probabilistic Road Map (PRM) and uses a recursive algorithm to find the shortest path. I then presents the PRM and solution useing OpenGL features. </p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -199,9 +204,6 @@
 							<li class="button primary small">Arduino</li>
 						</ul>
 						<p> Created a data acquisition setting using MATLAB. Used communication with an Arduino over a serial connection for motor position commands and encoder reading. Other commands, such as calibration commands, were also communicated over the serial connection. I used MATLAB to read the force sensor input via a NI data acquisiton board and to transform the volatge data into force data.   </p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -220,9 +222,6 @@
 							<li class="button primary small">User Study</li>
 						</ul>
 						<p>Peformed a user study consisting of 10 users. Analyzed force and motor position data using MATLAB and performed a 2-way ANOVA to asses the statistical significance of the results. </p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 
 					<article>
@@ -243,9 +242,6 @@
 						<p>
 							Implemnted a path-following algorithm on an STM32 controller. Used PID control for velocity and direction, a photo-resistor array for path detection and an ultrasonic sensor for obsacle avoidance.
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -265,9 +261,6 @@
 						<p>
 							Implemented a numerical solution to the the Laplace equation representing axissymmetric conductive heat transfer in a hollow cylinder . Developed a solution using the Jacobi method and multigrid method(W and V cycles) and compared the performance of the methods.
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -288,9 +281,6 @@
 							Created a Markov Decision Process (MDP) of a robot in a grid world. Solved for the optimal route using both value and policy interations.
 
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 					<article>
 						<header>
@@ -310,9 +300,6 @@
 						<p>
 							Designed a portable bridge for overcoming obstacles. Performed a mechanical analysis of the bridge and used the equations to optimize 5 design variables for the weight, length and max load of the bridge. Used ModeFrontier&reg to solve with MOGA II (Multi-Objective Genetic Algorithm).
 						</p>
-						<ul class="actions special">
-							<li><a class="button">Full Story</a></li>
-						</ul>
 					</article>
 				</section>
 
